@@ -1,0 +1,27 @@
+{
+  "name": "docker-magento",
+  "description": "A Dockerized Magento Community Edition",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "v2.1.1",
+    "magento/core": "1.9.1.0-patch1"
+  },
+  "require-dev": {
+  },
+  "repositories": [
+  ],
+  "extra": {
+    "magento-root-dir": "web",
+    "auto-append-gitignore": true
+  },
+  "config": {
+    "discard-changes": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-install-cmd": [
+    ],
+    "post-update-cmd": [
+    ]
+  }
+}
